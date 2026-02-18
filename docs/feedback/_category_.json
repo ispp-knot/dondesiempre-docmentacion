@@ -1,9 +1,0 @@
-{
-  "label": "Feedback: Base de conocimiento común",
-  "position": 2,
-  "link": {
-    "type": "generated-index",
-    "description": "En esta sección se documenta el proceso de validación y revisión del proyecto. Aquí se recopila, de manera cronológica, la retroalimentación obtenida durante las sesiones de prueba y demostración. El objetivo de este registro es evidenciar la evolución del producto y justificar las decisiones de diseño y desarrollo tomadas en base a las necesidades reales de los usuarios e interesados."
-  }
-}
-
