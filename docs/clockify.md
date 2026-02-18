@@ -8,9 +8,4 @@ El siguiente informe recoge el esfuerzo individual de cada miembro del equipo du
 
 [Enlace al informe detallado por tarea (time-report.pdf)](/clockify/3-DP-time-report.pdf)
 
-<div style={{width: '100%', height: '90vh'}}>
-  <iframe
-    src="clockify/3-DP-time-report-summary.pdf"
-    style={{width: '100%', height: '100%', border: 'none'}}
-  />
-</div>
+
