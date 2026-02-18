@@ -55,4 +55,15 @@
   color: var(--ifm-color-primary);
 }
 
+.hero .button--secondary {
+  background-color: var(--ifm-color-primary-light);
+  border-color: var(--ifm-color-primary-light);
+  color: #fff;
+}
+
+.hero .button--secondary:hover {
+  background-color: var(--ifm-color-primary-dark);
+  border-color: var(--ifm-color-primary-dark);
+}
+
 
