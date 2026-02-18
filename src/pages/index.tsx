@@ -138,7 +138,7 @@ function HomepageHeader() {
         <Heading as="h1" className="hero__title">
           {siteConfig.title}{' '}
           <img
-            src="/img/logo_fondo_blanco.png"
+            src="/img/logo_fondo_blanco.ico"
             alt="Logo de DondeSiempre"
             style={{ height: 48, width: 'auto', verticalAlign: 'middle', borderRadius: 12 }}
           />
