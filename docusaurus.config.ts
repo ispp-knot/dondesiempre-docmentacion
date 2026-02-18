@@ -22,8 +22,8 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'DondeSiempre', // Usually your GitHub org/user name.
-  projectName: 'DondeSiempre', // Usually your repo name.
+  organizationName: 'ispp-knot', // Usually your GitHub org/user name.
+  projectName: 'dondesiempre-docmentacion', // Usually your repo name.
   deploymentBranch: 'gh-pages',
 
   trailingSlash: false,
