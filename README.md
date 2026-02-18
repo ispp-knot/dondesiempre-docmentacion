@@ -1,3 +1,23 @@
+## Requisitos
+
+- Node.js **20.20.0**
+
+Si no tienes Node 20, descárgalo e instálalo desde:
+https://nodejs.org/es/download
+
+Puedes comprobar tu versión con:
+```bash
+node -v
+```
+
+En la terminal de VS Code, dentro del proyecto:
+```bash
+npm install
+npm start
+```
+
+
+
 # Website
 
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.

@@ -6,7 +6,7 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-background-color: #f2e8cf;
+  --ifm-background-color: #ffffff;
 
   --ifm-color-primary: #c65a3a;
   --ifm-color-primary-dark: #e9c46a;
@@ -43,6 +43,16 @@
   --ifm-color-primary-lightest: #3cad6e;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+.markdown h1{
+ color: var(--ifm-color-primary-light);
+}
+.markdown h2{
+  color: var(--ifm-color-primary);
+}
+.markdown h3 {
+  color: var(--ifm-color-primary);
 }
 
 
