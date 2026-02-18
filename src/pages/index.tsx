@@ -12,52 +12,52 @@ import Heading from '@theme/Heading';
 import styles from './index.module.css';
 const MOCKUPS = [
   {
-    src: '/img/mockups/Mapa de tiendas.png',
+    src: 'img/mockups/Mapa de tiendas.png',
     title: 'Mapa de tiendas',
     description: 'Encuentra comercios cercanos a ti en un mapa interactivo y accede a sus escaparates.',
   },
   {
-    src: '/img/mockups/Escaparate Cliente.png',
+    src: 'img/mockups/Escaparate Cliente.png',
     title: 'Escaparate del comercio',
     description: 'Explora los productos de cada tienda con una experiencia visual atractiva y ordenada.',
   },
   {
-    src: '/img/mockups/Escaparate Cliente con Promoción.png',
+    src: 'img/mockups/Escaparate Cliente con Promoción.png',
     title: 'Promociones destacadas',
     description: 'Descubre ofertas y promociones activas de los comercios que sigues.',
   },
   {
-    src: '/img/mockups/Colecciones.png',
+    src: 'img/mockups/Colecciones.png',
     title: 'Colecciones',
     description: 'Navega por colecciones temáticas y encuentra exactamente lo que buscas.',
   },
   {
-    src: '/img/mockups/Conjuntos.png',
+    src: 'img/mockups/Conjuntos.png',
     title: 'Conjuntos',
     description: 'Inspírate con conjuntos y combinaciones creadas por los propios comercios.',
   },
   {
-    src: '/img/mockups/Detalles de conjunto.png',
+    src: 'img/mockups/Detalles de conjunto.png',
     title: 'Detalle de producto',
     description: 'Consulta toda la información de cada artículo antes de añadirlo a tu cesta.',
   },
   {
-    src: '/img/mockups/Cesta.png',
+    src: 'img/mockups/Cesta.png',
     title: 'Tu cesta de compra',
     description: 'Gestiona tus artículos seleccionados y realiza tu pedido de forma sencilla.',
   },
   {
-    src: '/img/mockups/Chat.png',
+    src: 'img/mockups/Chat.png',
     title: 'Chat con el comercio',
     description: 'Contacta directamente con la tienda para resolver cualquier duda al instante.',
   },
   {
-    src: '/img/mockups/Notificaciones.png',
+    src: 'img/mockups/Notificaciones.png',
     title: 'Notificaciones',
     description: 'Mantente al día con alertas de tus tiendas favoritas, pedidos y promociones.',
   },
   {
-    src: '/img/mockups/Nuevas promociones.png',
+    src: 'img/mockups/Nuevas promociones.png',
     title: 'Nuevas promociones',
     description: 'Recibe avisos en tiempo real cuando un comercio lance una nueva oferta.',
   },
@@ -138,7 +138,7 @@ function HomepageHeader() {
         <Heading as="h1" className="hero__title">
           {siteConfig.title}{' '}
           <img
-            src="/img/logo_fondo_blanco.ico"
+            src="img/logo_fondo_blanco.ico"
             alt="Logo de DondeSiempre"
             style={{ height: 48, width: 'auto', verticalAlign: 'middle', borderRadius: 12 }}
           />
