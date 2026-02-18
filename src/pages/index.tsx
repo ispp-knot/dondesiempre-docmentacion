@@ -14,14 +14,15 @@ function HomepageHeader() {
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
         <Heading as="h1" className="hero__title">
-          {siteConfig.title}
+          {siteConfig.title + '  '}
+          <img src="/img/favicon.ico" alt="Logo de DondeSiempre" />
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            Conócenos ➡️
           </Link>
         </div>
       </div>
@@ -33,11 +34,13 @@ export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`${siteConfig.title} Docs`}
+      description="Documentación de DondeSiempre">
       <HomepageHeader />
       <main>
-        <HomepageFeatures />
+        <h3 style={{textAlign: 'center', marginTop: '2rem'}}>
+          Añadir aquí imágenes y breves descripciones o algo así
+        </h3>
       </main>
     </Layout>
   );
