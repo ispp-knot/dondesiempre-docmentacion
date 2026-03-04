@@ -100,7 +100,7 @@ Se designarán dos moderadores por cada clase, uno para las presentaciones antes
 
 Los moderadores serán proporcionados por los grupos A, D y E. Por su parte, los grupos B y C se encargarán de asegurarse de que el mando del proyector es recogido antes de la clase y devuelto tras la finalización de la misma. Adicionalmente, los grupos B y C deberán preparar el aula para las presentaciones. Esto incluye: apagar las luces delanteras, cerrar la puerta y las ventanas para evitar el ruido y bajar las persianas delanteras de la clase.
 
-### 1.3 cciones tomadas a partir del feedback
+### 1.3 Acciones tomadas a partir del feedback
 
 #### Semana 1 (5 de febrero)
 
