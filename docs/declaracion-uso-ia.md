@@ -30,6 +30,12 @@ El uso de la IA se ha integrado en las siguientes fases al comienzo del desarrol
 - Generación de borradores para descripciones en publicaciones de Instagram o biografía de perfiles.
 - Correcciones de estilo y adaptación al tono para asegurar que el lenguaje fuera cercano y adecuado dependiendo del contexto (un documento a entregar, una publicación, etc.).
 
+### D. Soporte en implementación
+
+- Resolución de dudas técnicas y asistencia en la estructuración o generación de fragmentos de código estructurales.
+- Apoyo en la identificación de errores (*debugging*) y sugerencias para la optimización de los componentes técnicos desarrollados por el equipo.
+- Orientación sobre buenas prácticas para la configuración de herramientas, *frameworks* o la definición de la arquitectura general del proyecto.
+
 ## 3. Metodología
 
 Queremos destacar que ningún contenido generado por IA se ha incluido en el proyecto final sin revisión humana. El flujo que se ha seguido ha sido el siguiente:

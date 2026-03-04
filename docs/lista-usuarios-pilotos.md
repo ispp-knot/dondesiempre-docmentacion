@@ -44,78 +44,78 @@ Por privacidad solo ponemos aquellos contactos que son públicos.
 
 ### Perfil B: Clientes
 
-| Nombre y apellidos | Dirección de correo electrónico | Cuando la primera versión de la aplicación esté lista, ¿te gustaría probarla y darnos tu opinión? |
+| Iniciales | Dirección de correo electrónico | Cuando la primera versión de la aplicación esté lista, ¿te gustaría probarla y darnos tu opinión? |
 |---|---|---|
-| Ismael Founoun | i*******@gmail.com | Sí |
-| Sandra Quintero | s*******@gmail.com | Sí |
-| María Silva | m*******@gmail.com | Sí |
-| Francisco Ángel | f*******@gmail.com | Sí |
-| Claudia Mancheño | c*******@gmail.com | Sí |
-| Ainhoa Flores | a*******@gmail.com | Sí |
-| José Luis Moraza Vergara | j*******@gmail.com | Sí |
-| Elizabeth Dos Santos | d*******@gmail.com | Decidiendo |
-| Adrián Castellano Gandul | a*******@gmail.com | Sí |
-| Marta Aguilar Morcillo | m*******@gmail.com | Decidiendo |
-| Rosa Álvarez Domínguez | r*******@gmail.com | Decidiendo |
-| Alejandro Perales | a*******@gmail.com | No |
-| Carlos Cerdá Morales | c*******@gmail.com | Sí |
-| Beatriz Morales | b*******@gmail.com | Sí |
-| Cristina Morales García | c*******@gmail.com | Sí |
-| Begoña Bercedo | 6*******@gmail.com | Sí |
-| Alfonso Delgado Fernández | a*******@gmail.com | Sí |
-| Laila El aoud | l*******a@icloud.com | Sí |
-| Paula Morales San José | p*******@hotmail.com | Sí |
-| Pepe López Expósito | l*******@gmail.com | Sí |
-| Anabel Borrero Garrás | a*******@ieselgetares.org | No |
-| Luis Miguel Medina Delgado | c*******@Yahoo.es | No |
-| Antonio López Martín | a*******@ieselgetares.org | No |
-| Alicia Márquez Gallardo | a*******@ieselgetares.org | No |
-| Ana Rosa Hernández González | a*******@gmail.com | Decidiendo |
-| Elisa Quirós | e*******@gmail.com | No |
-| Diego Terrón Macías | d*******@gmail.com | Sí |
-| Emilia Morales | e*******@gmail.com | Decidiendo |
-| Inmaculada Nieto Gallardo | y*******@gmail.com | Decidiendo |
-| María López Morales | m*******@yahoo.es | Decidiendo |
-| Montse Abad | m*******@ieselgetares.org | Decidiendo |
-| Fco. Javier Delgado Palomar | f*******@g.educaand.es | Decidiendo |
-| Albaro banegas rojas | a*******@gmail.com | Decidiendo |
-| Isabel Ridruejo | i*******@yahoo.es | Decidiendo |
-| Lola Martínez de Azagra | l*******@gmail.com | Decidiendo |
-| Maria Martinez Picornell | m*******@hormail.com | Decidiendo |
-| José María López Gámez | j*******@gmail.com | Sí |
-| Luis Angel Morales García | l*******@gmail.com | Decidiendo |
-| Natalia Eliana | e*******@go.ugr.es | Decidiendo |
-| Donovan Arbón Espina | d*******@gmail.com | Decidiendo |
-| sergio martinez | s*******@gmail.com | Sí |
-| Fátima Barón Pérez | f*******@gmail.com | Decidiendo |
-| Paco Muñoz Cano | p*******@gmail.com | No |
-| Ines morales Aragonés | i*******@muevetesl.com | Sí |
-| Juan Pedro López Díaz-Pintado | l*******@gmail.com | Sí |
-| Alejandro González García | a*******@gmail.com | Sí |
-| Maria del Pilar | p*******@hotmail.com | Sí |
-| Juan Manuel Carrasco López | l*******@gmail.com | Sí |
-| Francisco Ángel Postigo | p*******@gmail.com | Sí |
-| Candela Jazmín | c*******@gmail.com | No |
-| Fernando Angoso Guervos | f*******o@hotmail.com | Sí |
-| Amador | a*******@gmail.com | Sí |
-| Paula González Páez | p*******@gmail.com | Sí |
-| Ana Ziegenhirt | a*******@gmail.com | Sí |
-| José Julián Morales Garcia | j*******@gmail.com | Sí |
-| Yo | s*******@gmail.com | Sí |
-| Esther Ortiz Vergara | e*******@gmail.com | Sí |
-| Luis de Luque Rodríguez | d*******@gmail.com | Sí |
-| Toño Morales | c*******@gmail.com | Sí |
-| Marisa Morales Fernández | m*******@coaat.es | No |
-| Reyes Domínguez Muñoz | r*******@gmail.com | No |
-| María León Navarro | n*******@gmail.com | Sí |
-| Juan Manuel Diez Morales | j*******@gmail.com | Sí |
-| David Morales Fernández | d*******@gmail.com | No |
-| Javier Perez | b*******@hotmail.es | Sí |
-| Ruben hurtado galan | a*******@iesramoncarande.com | No |
-| Víctor José Mañas González | v*******@gmail.com | No |
-| Rebeca Cerdá Morales | r*******@gmail.com | Sí |
-| María Postigo Ruiz | m*******@gmail.com | Sí |
-| Daniel Pérez García | m*******@gmail.com | Sí |
+| I. F. | i*******@gmail.com | Sí |
+| S. Q. | s*******@gmail.com | Sí |
+| M. S. | m*******@gmail.com | Sí |
+| F. Á. | f*******@gmail.com | Sí |
+| C. M. | c*******@gmail.com | Sí |
+| A. F. | a*******@gmail.com | Sí |
+| J. L. M. V. | j*******@gmail.com | Sí |
+| E. D. S. | d*******@gmail.com | Decidiendo |
+| A. C. G. | a*******@gmail.com | Sí |
+| M. A. M. | m*******@gmail.com | Decidiendo |
+| R. Á. D. | r*******@gmail.com | Decidiendo |
+| A. P. | a*******@gmail.com | No |
+| C. C. M. | c*******@gmail.com | Sí |
+| B. M. | b*******@gmail.com | Sí |
+| C. M. G. | c*******@gmail.com | Sí |
+| B. B. | 6*******@gmail.com | Sí |
+| A. D. F. | a*******@gmail.com | Sí |
+| L. E. A. | l*******a@icloud.com | Sí |
+| P. M. S. J. | p*******@hotmail.com | Sí |
+| P. L. E. | l*******@gmail.com | Sí |
+| A. B. G. | a*******@ieselgetares.org | No |
+| L. M. M. D. | c*******@Yahoo.es | No |
+| A. L. M. | a*******@ieselgetares.org | No |
+| A. M. G. | a*******@ieselgetares.org | No |
+| A. R. H. G. | a*******@gmail.com | Decidiendo |
+| E. Q. | e*******@gmail.com | No |
+| D. T. M. | d*******@gmail.com | Sí |
+| E. M. | e*******@gmail.com | Decidiendo |
+| I. N. G. | y*******@gmail.com | Decidiendo |
+| M. L. M. | m*******@yahoo.es | Decidiendo |
+| M. A. | m*******@ieselgetares.org | Decidiendo |
+| F. J. D. P. | f*******@g.educaand.es | Decidiendo |
+| A. B. R. | a*******@gmail.com | Decidiendo |
+| I. R. | i*******@yahoo.es | Decidiendo |
+| L. M. D. A. | l*******@gmail.com | Decidiendo |
+| M. M. P. | m*******@hormail.com | Decidiendo |
+| J. M. L. G. | j*******@gmail.com | Sí |
+| L. A. M. G. | l*******@gmail.com | Decidiendo |
+| N. E. | e*******@go.ugr.es | Decidiendo |
+| D. A. E. | d*******@gmail.com | Decidiendo |
+| S. M. | s*******@gmail.com | Sí |
+| F. B. P. | f*******@gmail.com | Decidiendo |
+| P. M. C. | p*******@gmail.com | No |
+| I. M. A. | i*******@muevetesl.com | Sí |
+| J. P. L. D. P. | l*******@gmail.com | Sí |
+| A. G. G. | a*******@gmail.com | Sí |
+| M. D. P. | p*******@hotmail.com | Sí |
+| J. M. C. L. | l*******@gmail.com | Sí |
+| F. Á. P. | p*******@gmail.com | Sí |
+| C. J. | c*******@gmail.com | No |
+| F. A. G. | f*******o@hotmail.com | Sí |
+| A. | a*******@gmail.com | Sí |
+| P. G. P. | p*******@gmail.com | Sí |
+| A. Z. | a*******@gmail.com | Sí |
+| J. J. M. G. | j*******@gmail.com | Sí |
+| Y. | s*******@gmail.com | Sí |
+| E. O. V. | e*******@gmail.com | Sí |
+| L. D. L. R. | d*******@gmail.com | Sí |
+| T. M. | c*******@gmail.com | Sí |
+| M. M. F. | m*******@coaat.es | No |
+| R. D. M. | r*******@gmail.com | No |
+| M. L. N. | n*******@gmail.com | Sí |
+| J. M. D. M. | j*******@gmail.com | Sí |
+| D. M. F. | d*******@gmail.com | No |
+| J. P. | b*******@hotmail.es | Sí |
+| R. H. G. | a*******@iesramoncarande.com | No |
+| V. J. M. G. | v*******@gmail.com | No |
+| R. C. M. | r*******@gmail.com | Sí |
+| M. P. R. | m*******@gmail.com | Sí |
+| D. P. G. | m*******@gmail.com | Sí |
 
 ## Estadísticas del grado de compromiso
 Tras la recopilación de los datos que se muestran en las tablas superiores, podemos llegar a varias conclusiones extraídas de las respuestas ofrecidas.
