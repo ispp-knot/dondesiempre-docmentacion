@@ -37,8 +37,9 @@ Partiendo de la calculadora de Azure ([https://azure.microsoft.com/es-es/pricing
   - 2,95€ / mes con IVA  
 - Fibra 1Gbps DIGI ([https://www.digimobil.es/fibra-optica/fibra-o-fibra-smart](https://www.digimobil.es/fibra-optica/fibra-o-fibra-smart)) \-\> 20€/mes
 
-### **Comisiones Stripe**  
+### **Comisiones Stripe**
 [https://stripe.com/es/pricing](https://stripe.com/es/pricing)
+
 ![Comisiones Stripe](/img/s2-comisiones-stripe.png)
 
 ### **Desglose:**

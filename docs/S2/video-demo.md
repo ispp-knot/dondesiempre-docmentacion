@@ -5,6 +5,8 @@ sidebar_position: 6
 
 [Vídeo demo en YouTube](https://youtu.be/n8eJjjmsf2s)
 
+Los casos de uso están marcados en la descripción del vídeo, indicando el tiempo de inicio de estos.
+
 <iframe
 width="100%"
 height="450"

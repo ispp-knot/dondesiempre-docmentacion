@@ -26,7 +26,9 @@ El backend es la tecnología más complicada a decidir ya que existen varias tec
 Se considera que todos somos familiares a las tecnologías que se han listado ya que todas han sido usadas a lo largo de la carrera.
 
 Tras la encuesta de preferencia de tecnologías, estos han sido los resultados.  
+
 ![Encuesta](/img/s2-grafico-barras-backend.png)
+
 Teniendo como preferido a Spring Boot y siendo el segundo preferido Django, dejando a Flask como “poco aceptado” y a Express como “no aceptado”.
 
 ### Spring Boot
@@ -111,7 +113,9 @@ Teniendo como preferido a Spring Boot y siendo el segundo preferido Django, deja
 A la hora de elegir la tecnología frontend se han tenido que tomar 3 decisiones, el framework a utilizar, la manera de implementar las funcionalidades de una PWA y el uso o no de TypeScript frente a JavaScript.
 
 Estos son los resultados de la encuesta sobre los frameworks a utilizar. Siendo Next JS el claro ganador.  
+
 ![Encuesta](/img/s2-grafico-barras-frontend.png)
+
 También hemos encuestado sobre el uso de TypeScript
 
 ![Encuesta](/img/s2-grafico-sectores-frontend.png)
