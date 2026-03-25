@@ -231,7 +231,7 @@ Entrando en algo más de detalle del backend, se está haciendo uso de Java 25 j
 
 El frontend hace uso de TypeScript junto a NextJS, además, para dar la posibilidad de hacer un PWA se hará uso de Serwist porque nos permite implementar Service Workers de forma robusta y mantenible sin tener que construir toda la infraestructura desde cero. Nos ofrece estrategias de caché optimizadas, manejo sencillo de actualizaciones y soporte para funcionalidades clave como modo offline y notificaciones push, reduciendo la complejidad técnica y el riesgo de errores.   
 Para asegurar un estilo consistente se hará uso de ESLint y de Prettier junto a un pre-commit hook para lintear el código.  
-Los despliegues se harán en Vercel, el cuál por defecto con su acceso al repositorio se encarga de desplegar las nuevas versiones que llegan a main automáticamente. Para mantener los diferentes Sprints congelados se harán uso de diferentes proyectos de Vercel para cada uno de los sprints.
+Los despliegues se harán en Vercel, el cual por defecto con su acceso al repositorio se encarga de desplegar las nuevas versiones que llegan a main automáticamente. Para mantener los diferentes Sprints congelados se harán uso de diferentes proyectos de Vercel para cada uno de los sprints.
 
 #### Base de datos
 
@@ -325,7 +325,7 @@ Características gratuitas:
 
 ##### Neon
 
-Caracteristicas gratuitas:
+Características gratuitas:
 
 - Permite alojar PostgreSQL
 - 100 proyectos(según me da a entender son 100 posibles DB)
@@ -335,12 +335,12 @@ Caracteristicas gratuitas:
 - Solo PostgreSQL
 - Autoescalado
 - Lectura de réplicas
-- 10 ramas de bases de datos por proyecto para hacer pruebas(Quiza podriamos tener una por sprint)
-- Fácil conexion con java y otras muchas opciones.
-- Generación automatica de API.
+- 10 ramas de bases de datos por proyecto para hacer pruebas(Quizá podriamos tener una por sprint)
+- Fácil conexión con java y otras muchas opciones.
+- Generación automática de API.
 
   Supabase  
-  Caracteristicas gratuitas:
+  Características gratuitas:
 - Peticiones ilimitadas
 - 500 MB de almacenamiento
 - 5 GB de salida de datos al mes
@@ -348,7 +348,7 @@ Caracteristicas gratuitas:
 - 1 GB de almacenamiento de archivos(Externos a la DB)
 - Editor de tablas y ejecución de scripts sql integrado aparentemente sencillo y cómodo de usar.
 - Autogenera API
-- Autenticacion
+- Autenticación
 - Posee autogeneracion de configuracion para frameworks(Next,React,... Spring no, pero posee JDBC para conectar como en Neon)
 
 ##### MariaDB SkySQL
@@ -455,7 +455,7 @@ A continuación, dos tablas comparativas(incluyen info repetida):
 | **Render** | Gratis | 2 servicios gratuitos por cuenta, 100 GB/mes de ancho de banda, 500 min/mes de builds | Código y contenedores | Sí | Escalado vertical en planes de pago | Límite de servicios en free, sin acceso a consola en free |
 | **Vercel** | Gratis para siempre | 1M de peticiones, 100GB de transferencia/mes | Importar repo (Next.js, React, Vue, etc.) | CI/CD automático | Optimizado para Next.js, React, Vue. | No soporta Docker ni backends tradicionales persistentes |
 | **Azure App Service** | Plan Free (F1) disponible \+ créditos estudiantes (\~86 €) | 60 min CPU/día, ancho de banda muy limitado, recursos compartidos, 10 web apps | Código o contenedores Docker | CI/CD automático con GitHub (código) y posible con contenedores | Servidores en España, autoapagado, pruebas de carga | Se detiene al agotar CPU, rendimiento bajo en free |
-| **Fly.io** | 7 días de prueba (no free tier estable) | Pago por uso según recursos | Contenedores Docker y codigo | Sí | Despliegue geográfico cercano a usuarios | No es gratuito a medio plazo |
+| **Fly.io** | 7 días de prueba (no free tier estable) | Pago por uso según recursos | Contenedores Docker y código | Sí | Despliegue geográfico cercano a usuarios | No es gratuito a medio plazo |
 
 #### Cloudinary
 
