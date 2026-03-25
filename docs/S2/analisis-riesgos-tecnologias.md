@@ -14,9 +14,9 @@ La base de datos será **PostgreSQL** ya que es la más soportada en las platafo
 
 Previo al análisis de las tecnologías se han tenido que valorar las características de estas mismas por separado, entendiendo que ninguna de ellas es buena o mala por sí misma, sino que su conveniencia depende del contexto y de las necesidades específicas del proyecto.
 
-* Preferimos lenguajes con **tipado estático** sobre lenguajes con tipado dinámico ya que en proyectos con muchas personas, los lenguajes estáticamente tipados detectan errores en compilación y hacen el código más predecible y mantenible.  
-* Preferimos lenguajes con **tipado fuerte** sobre lenguajes con tipado débil ya que el tipado fuerte evita conversiones implícitas peligrosas y comportamientos inesperados, reduciendo errores sutiles.  
-* Preferimos frameworks con **arquitectura clara** sobre frameworks con arquitectura flexible porque imponen convenciones consistentes que reducen la complejidad, evitan decisiones ambiguas y facilitan el trabajo coordinado en equipos grandes.  
+* Preferimos lenguajes con **tipado estático** sobre lenguajes con tipado dinámico ya que en proyectos con muchas personas, los lenguajes estáticamente tipados detectan errores en compilación y hacen el código más predecible y mantenible.
+* Preferimos lenguajes con **tipado fuerte** sobre lenguajes con tipado débil ya que el tipado fuerte evita conversiones implícitas peligrosas y comportamientos inesperados, reduciendo errores sutiles.
+* Preferimos frameworks con **arquitectura clara** sobre frameworks con arquitectura flexible porque imponen convenciones consistentes que reducen la complejidad, evitan decisiones ambiguas y facilitan el trabajo coordinado en equipos grandes.
 * Preferimos frameworks con **dependencias claras** frente a aquellos donde debes seleccionarlas por tu cuenta porque reducen la fragmentación, evitan incompatibilidades y además nos liberan del esfuerzo y riesgo de tener que evaluarlas y decidirlas individualmente.
 
 ## Backend
@@ -33,63 +33,63 @@ Teniendo como preferido a Spring Boot y siendo el segundo preferido Django, deja
 
 #### Ventajas
 
-* **Arquitectura bien definida** y coherente, que facilita la comprensión y la organización del proyecto.  
-* Lenguaje con **tipado estático fuerte**, lo que contribuye a una mayor predictibilidad y detección temprana de errores.  
-* Ecosistema de **testing muy maduro**, con buenas herramientas para todo tipo de tests.  
-* Soporta de forma robusta aspectos clave como **seguridad**, **transacciones** y **concurrencia**.  
-* Uso de **Gradle y Maven** como gestores de dependencias potentes y ampliamente utilizados.  
+* **Arquitectura bien definida** y coherente, que facilita la comprensión y la organización del proyecto.
+* Lenguaje con **tipado estático fuerte**, lo que contribuye a una mayor predictibilidad y detección temprana de errores.
+* Ecosistema de **testing muy maduro**, con buenas herramientas para todo tipo de tests.
+* Soporta de forma robusta aspectos clave como **seguridad**, **transacciones** y **concurrencia**.
+* Uso de **Gradle y Maven** como gestores de dependencias potentes y ampliamente utilizados.
 * Es el **preferido** por el **equipo**
 
 #### Desventajas
 
-* Curva de entrada y **sobreesfuerzo inicial** debido a que es un framework relativamente pesado.  
-* **Configuración inicial extensa**, que puede requerir más tiempo para poner en marcha un proyecto.  
+* Curva de entrada y **sobreesfuerzo inicial** debido a que es un framework relativamente pesado.
+* **Configuración inicial extensa**, que puede requerir más tiempo para poner en marcha un proyecto.
 * **Lento para prototipos** y pruebas de concepto cuando se compara con soluciones más ligeras.
 
 ### Django
 
 #### Ventajas
 
-* **Arquitectura definida**, aunque no tan explícita como en otros frameworks.  
-* Permite **iteración rápida**, facilitando el desarrollo ágil y prototipos funcionales en poco tiempo.  
-* Lenguaje con **tipado fuerte**.  
-* Sistema de **autenticación incluido**  
+* **Arquitectura definida**, aunque no tan explícita como en otros frameworks.
+* Permite **iteración rápida**, facilitando el desarrollo ágil y prototipos funcionales en poco tiempo.
+* Lenguaje con **tipado fuerte**.
+* Sistema de **autenticación incluido**
 * **Segundo más apoyado** por el equipo de desarrollo.
 
 #### Desventajas
 
-* Lenguaje con **tipado dinámico**, lo que puede dificultar la detección temprana de errores en proyectos grandes.  
-* **Gestión de dependencias limitada** y menos robusta, lo que puede generar problemas de compatibilidad o fragmentación.  
+* Lenguaje con **tipado dinámico**, lo que puede dificultar la detección temprana de errores en proyectos grandes.
+* **Gestión de dependencias limitada** y menos robusta, lo que puede generar problemas de compatibilidad o fragmentación.
 * Malo en escenarios de **concurrencia**, siendo menos adecuado para aplicaciones con alta carga simultánea.
 
 ### Flask
 
 #### Ventajas
 
-* **Muy flexible**, al ser un micro framework, permite un control total sobre la estructura y el diseño del proyecto.  
+* **Muy flexible**, al ser un micro framework, permite un control total sobre la estructura y el diseño del proyecto.
 * Lenguaje con **tipado fuerte**, lo que ayuda a mantener consistencia y detectabilidad de errores en ciertas partes del código.
 
 #### Desventajas
 
-* La arquitectura depende completamente del equipo, ya que el framework **no impone una arquitectura predeterminada.**  
-* Es necesario **seleccionar muchas dependencias** (ORM, autenticación, etc.), lo que incrementa la carga de decisiones y el riesgo de incompatibilidades.  
-* Lenguaje con **tipado dinámico**, que puede dificultar la detección temprana de errores.  
-* **Gestión de dependencias limitada**, con riesgo de fragmentación y problemas de compatibilidad.  
+* La arquitectura depende completamente del equipo, ya que el framework **no impone una arquitectura predeterminada.**
+* Es necesario **seleccionar muchas dependencias** (ORM, autenticación, etc.), lo que incrementa la carga de decisiones y el riesgo de incompatibilidades.
+* Lenguaje con **tipado dinámico**, que puede dificultar la detección temprana de errores.
+* **Gestión de dependencias limitada**, con riesgo de fragmentación y problemas de compatibilidad.
 * **Poco apoyado** por el equipo de desarrollo
 
 ### Express.js
 
 #### Ventajas
 
-* **Muy flexible**, permitiendo adaptar el framework a las necesidades específicas del proyecto.  
-* Posibilidad de mantener **todo el proyecto en un solo lenguaje** (JavaScript) tanto en frontend como en backend.  
+* **Muy flexible**, permitiendo adaptar el framework a las necesidades específicas del proyecto.
+* Posibilidad de mantener **todo el proyecto en un solo lenguaje** (JavaScript) tanto en frontend como en backend.
 * Uso de **NPM como gestor de dependencias**, muy potente y ampliamente soportado.
 
 #### Desventajas
 
-* Lenguaje con **tipado dinámico y débil**, lo que puede dificultar la detección temprana de errores y generar comportamientos inesperados.  
-* No impone una arquitectura específica, lo que puede provocar **inconsistencias en el diseño del proyecto**.  
-* Es necesario **seleccionar muchas dependencias** (ORM, autenticación, etc.), lo que aumenta la carga de decisiones y el riesgo de incompatibilidades.  
+* Lenguaje con **tipado dinámico y débil**, lo que puede dificultar la detección temprana de errores y generar comportamientos inesperados.
+* No impone una arquitectura específica, lo que puede provocar **inconsistencias en el diseño del proyecto**.
+* Es necesario **seleccionar muchas dependencias** (ORM, autenticación, etc.), lo que aumenta la carga de decisiones y el riesgo de incompatibilidades.
 * No es **nada aceptado** por el equipo de desarrollo.
 
 | Feature / Framework | Spring Boot | Django | Flask | Express.js |
@@ -112,7 +112,7 @@ A la hora de elegir la tecnología frontend se han tenido que tomar 3 decisiones
 
 Estos son los resultados de la encuesta sobre los frameworks a utilizar. Siendo Next JS el claro ganador.  
 ![Encuesta](/img/s2-grafico-barras-frontend.png)
-También hemos encuestado sobre el uso de TypeScript  
+También hemos encuestado sobre el uso de TypeScript
 
 ![Encuesta](/img/s2-grafico-sectores-frontend.png)
 
@@ -122,28 +122,28 @@ En cuanto al conocimiento de las tecnologías listadas ambas se basan en React, 
 
 #### Ventajas
 
-* **Simple** y fácil de entender para comenzar un proyecto.  
+* **Simple** y fácil de entender para comenzar un proyecto.
 * Permite iniciar proyectos rápidamente, **ideal para prototipos** o aplicaciones de tamaño pequeño/mediano.
 
 #### Desventajas
 
-* **No ofrece** Server-Side Rendering (**SSR**) de manera nativa, lo que puede limitar SEO y rendimiento en ciertos casos.  
-* **Arquitectura menos definida**, dejando muchas decisiones estructurales al equipo.  
+* **No ofrece** Server-Side Rendering (**SSR**) de manera nativa, lo que puede limitar SEO y rendimiento en ciertos casos.
+* **Arquitectura menos definida**, dejando muchas decisiones estructurales al equipo.
 * **No aceptado** en la encuesta.
 
 ### NextJS
 
 #### Ventajas
 
-* Soporta **Server-Side Rendering (SSR)** de manera nativa, mejorando SEO y tiempos de carga inicial.  
-* Ofrece **muy buen rendimiento** en aplicaciones web modernas.  
-* Posee una **arquitectura clara**, que facilita la organización del proyecto y la colaboración en equipo.  
-* Framework **moderno**, con herramientas y ecosistema actualizados.  
+* Soporta **Server-Side Rendering (SSR)** de manera nativa, mejorando SEO y tiempos de carga inicial.
+* Ofrece **muy buen rendimiento** en aplicaciones web modernas.
+* Posee una **arquitectura clara**, que facilita la organización del proyecto y la colaboración en equipo.
+* Framework **moderno**, con herramientas y ecosistema actualizados.
 * **Preferido en la encuesta.**
 
 #### Desventajas
 
-* Introduce **cierta complejidad**, especialmente comparado con soluciones más simples como Create React App.  
+* Introduce **cierta complejidad**, especialmente comparado con soluciones más simples como Create React App.
 * **No todo el equipo está acostumbrado** a su flujo y convenciones, lo que puede requerir capacitación inicial.
 
 También se ha analizado las distintas maneras de implementar las características de una PWA, para ello se han estudiado las siguientes alternativas. Nadie del equipo tiene experiencia en ninguna de ellas.
@@ -162,30 +162,30 @@ Esta opción implica utilizar la API de Service Workers de manera directa sin ni
 
 ### Next-pwa
 
-Es un add-on de NextJS que prepara al framework para su uso en PWA. 
+Es un add-on de NextJS que prepara al framework para su uso en PWA.
 
 #### Ventajas
 
 * Es muy **completa** conteniendo muchísimas funcionalidades.
 
-#### Desventajas 
+#### Desventajas
 
-* Lleva 3 años **sin** ningún **mantenimiento**.  
+* Lleva 3 años **sin** ningún **mantenimiento**.
 * No existe una única fuente del código ya que existen varios forks que han intentado continuar el soporte.
 
 ### Next-pwa-pack
 
-Es una biblioteca muy pequeña especializada en PWA para el ecosistema de NextJS 
+Es una biblioteca muy pequeña especializada en PWA para el ecosistema de NextJS
 
 #### Ventajas
 
-* Parece ser muy **completa** conteniendo muchas funcionalidades.  
+* Parece ser muy **completa** conteniendo muchas funcionalidades.
 * Aún está en mantenimiento **activo**.
 
 #### Desventajas
 
-* No ha sido **apenas usada** en entornos reales, tiene muy pocas descargas en NPM  
-* **Apenas existe comunidad** alrededor de la herramienta.  
+* No ha sido **apenas usada** en entornos reales, tiene muy pocas descargas en NPM
+* **Apenas existe comunidad** alrededor de la herramienta.
 
 
 ### Serwist
@@ -194,8 +194,8 @@ Serwist funciona como una capa de abstracción sobre la API de Service Worker.
 
 #### Ventajas
 
-* En activo, con un **desarrollo continuo** y muchos contribuidores.  
-* Tiene una biblioteca **especializada en NextJS**.  
+* En activo, con un **desarrollo continuo** y muchos contribuidores.
+* Tiene una biblioteca **especializada en NextJS**.
 * Standard y **recomendada por NextJS**.
 
 #### Desventajas
@@ -242,9 +242,9 @@ Para almacenar las imágenes de la aplicación se hará uso de esta plataforma. 
 
 Somos conscientes de la existencia de ciertos riesgos que conlleva el uso del stack tecnológico seleccionado por lo que vamos a proponer una serie de medidas para mitigarlos intentando mejorar al máximo posible la experiencia de desarrollo.
 
-* Para evitar que la configuración inicial de las tecnologías sea un problema a la hora de desarrollar, estas deben estar configuradas antes de comenzar el desarrollo.  
-* Para evitar que el desconocimiento de Serwist sea un problema se formará al equipo en la tecnología.  
-* Para evitar que el desconocimiento de NextJS o TypeScript sean un problema, las personas con experiencia en estas tecnologías formarán a las que no.  
+* Para evitar que la configuración inicial de las tecnologías sea un problema a la hora de desarrollar, estas deben estar configuradas antes de comenzar el desarrollo.
+* Para evitar que el desconocimiento de Serwist sea un problema se formará al equipo en la tecnología.
+* Para evitar que el desconocimiento de NextJS o TypeScript sean un problema, las personas con experiencia en estas tecnologías formarán a las que no.
 * Para evitar los problemas que se han tenido en otras ocasiones con las migraciones se formará al equipo en este ámbito.
 
 ## Tecnologías Auxiliares
@@ -312,51 +312,51 @@ Se ha decidido usar **Azure** para el despliegue del backend, **Vercel** para el
 
 Características gratuitas:
 
-- Permite alojar tanto Mariadb como PostgreSQL  
-- 10 MB por DB de almacenamiento  
-- Recursos no dedicados  
-- 5 conexiones concurrentes(En EGC dieron problemas pero sé resetearlas)  
-- Tráfico ilimitado  
+- Permite alojar tanto Mariadb como PostgreSQL
+- 10 MB por DB de almacenamiento
+- Recursos no dedicados
+- 5 conexiones concurrentes(En EGC dieron problemas pero sé resetearlas)
+- Tráfico ilimitado
 - Poseé opción de hacer consultas y borrar las tablas de forma online
 
 ##### Neon
 
 Caracteristicas gratuitas:
 
-- Permite alojar PostgreSQL  
-- 100 proyectos(según me da a entender son 100 posibles DB)  
-- 0.5 GB de almacenamiento por proyecto  
-- 100 CU-hours por proyecto (CU= uso de computo, 1 CU \= 4GB RAM) \= CU×horas activo  
-- Autenticacion  
-- Solo PostgreSQL  
-- Autoescalado  
-- Lectura de réplicas  
-- 10 ramas de bases de datos por proyecto para hacer pruebas(Quiza podriamos tener una por sprint)   
-- Fácil conexion con java y otras muchas opciones.  
-- Generación automatica de API.  
-    
+- Permite alojar PostgreSQL
+- 100 proyectos(según me da a entender son 100 posibles DB)
+- 0.5 GB de almacenamiento por proyecto
+- 100 CU-hours por proyecto (CU= uso de computo, 1 CU \= 4GB RAM) \= CU×horas activo
+- Autenticacion
+- Solo PostgreSQL
+- Autoescalado
+- Lectura de réplicas
+- 10 ramas de bases de datos por proyecto para hacer pruebas(Quiza podriamos tener una por sprint)
+- Fácil conexion con java y otras muchas opciones.
+- Generación automatica de API.
+
   Supabase  
-  Caracteristicas gratuitas:  
-- Peticiones ilimitadas  
-- 500 MB de almacenamiento  
-- 5 GB de salida de datos al mes  
-- 5 GB de salida cacheada de datos al mes  
-- 1 GB de almacenamiento de archivos(Externos a la DB)  
-- Editor de tablas y ejecución de scripts sql integrado aparentemente sencillo y cómodo de usar.  
-- Autogenera API  
-- Autenticacion  
+  Caracteristicas gratuitas:
+- Peticiones ilimitadas
+- 500 MB de almacenamiento
+- 5 GB de salida de datos al mes
+- 5 GB de salida cacheada de datos al mes
+- 1 GB de almacenamiento de archivos(Externos a la DB)
+- Editor de tablas y ejecución de scripts sql integrado aparentemente sencillo y cómodo de usar.
+- Autogenera API
+- Autenticacion
 - Posee autogeneracion de configuracion para frameworks(Next,React,... Spring no, pero posee JDBC para conectar como en Neon)
 
 ##### MariaDB SkySQL
 
 Gratuito:
 
-- Solo MariaDB  
-- 1-2 MCU  
-- 10 GB de almacenamiento  
-- SSL/TLS activado  
-- No parece tener para consultar tablas y hacer consultas de forma gratuita  
-- Menos intuitiva que el resto  
+- Solo MariaDB
+- 1-2 MCU
+- 10 GB de almacenamiento
+- SSL/TLS activado
+- No parece tener para consultar tablas y hacer consultas de forma gratuita
+- Menos intuitiva que el resto
 - No concreta cuántas pueden crearse por cuenta
 
 Mariadb así de primeras parece tener menos opciones gratuitas de forma ilimitada.
@@ -379,7 +379,7 @@ Mariadb así de primeras parece tener menos opciones gratuitas de forma ilimitad
 
 Plan gratuito:
 
-* Up to 1 vCPU / 0.5 GB RAM per service  
+* Up to 1 vCPU / 0.5 GB RAM per service
 * 0.5 GB of volume storage
 
 Tiene 30 dias gratis o 5€ el primer mes, a partir de entonces saldo de 1€ cada mes.  
@@ -389,23 +389,23 @@ Es posible que sea suficiente para trabajar con el saldo que dan, solo se puede 
 ##### Render
 
 Plan gratuito:
-- 2 servicios por cuenta (Podría estar desplegado frontend y backend por separado, mismo proyecto, distintos servicios) Habría que registrar 4 usuarios para mantener todos los sprints.  
-- Ancho de banda: 100 GB/mes  
-- Minutos de pipeline de construccion al mes: 500  
-- Escalado vertical  
+- 2 servicios por cuenta (Podría estar desplegado frontend y backend por separado, mismo proyecto, distintos servicios) Habría que registrar 4 usuarios para mantener todos los sprints.
+- Ancho de banda: 100 GB/mes
+- Minutos de pipeline de construccion al mes: 500
+- Escalado vertical
 - No posee consola gratuita
 
 ##### Vercel
 
 Serviría para alojar el frontend, soporta nextjs, react, vue, etc. Solo JS.
 
-* Gratis para siempre  
-* Import your repo, deploy in seconds  
-* Automatic CI/CD  
-* Web Application Firewall  
-* Global, automated CDN  
-* Fluid compute  
-* DDoS Mitigation  
+* Gratis para siempre
+* Import your repo, deploy in seconds
+* Automatic CI/CD
+* Web Application Firewall
+* Global, automated CDN
+* Fluid compute
+* DDoS Mitigation
 * Traffic & performance insights
 
 No soporta docker para desplegarse.
@@ -413,19 +413,19 @@ No soporta docker para desplegarse.
 ##### Azure
 
 Actualmente por ser estudiantes disponemos de un saldo de unos 86€ aproximadamente.  
-Se hace uso de Azure App Service(Aplicacion Web). 
+Se hace uso de Azure App Service(Aplicacion Web).
 
 Se puede desplegar con código, indicando lenguaje y otras cosas.  
 Otra opción es con imágenes subidas a docker hub(público o privado), necesita la url, (usuario, contraseña si es privado), el nombre y tag como hello-world:latest y comandos de ejecución al iniciarse(opcionales).   
 Un plan básico cuesta unos 13 USD/mes, es posible seleccionar el gratuito de todas maneras.  
 Plan gratuito:
 
-- 60 min de CPU al día, cuando se agota se detiene  
-- Se puede auto apagado si no está en uso  
-- Pruebas de carga  
-- 165 MB de salida de datos diaria  
-- 1024 MB de entrada de datos  
-- Puede cambiarse el plan desde su dashboard  
+- 60 min de CPU al día, cuando se agota se detiene
+- Se puede auto apagado si no está en uso
+- Pruebas de carga
+- 165 MB de salida de datos diaria
+- 1024 MB de entrada de datos
+- Puede cambiarse el plan desde su dashboard
 - Servidores en España
 
 Si se crea con contenedores, se puede CI/CD con contendores(no investigado en profundidad)  
@@ -456,7 +456,7 @@ A continuación, dos tablas comparativas(incluyen info repetida):
 #### Cloudinary
 
 Opción conocida para almacenar imágenes y videos  
-De forma gratuita dispone de 25 créditos mensuales 
+De forma gratuita dispone de 25 créditos mensuales
 
 ### Riesgos de las plataformas de despliegue
 
@@ -466,9 +466,9 @@ Puede producirse suspensión del servicio o degradación del rendimiento si se s
 
 Mitigación:
 
-* Monitorizar consumo mensualmente.  
-* Optimizar consultas y cerrar correctamente las conexiones.  
-* Limitar el tamaño de las imágenes subidas.  
+* Monitorizar consumo mensualmente.
+* Optimizar consultas y cerrar correctamente las conexiones.
+* Limitar el tamaño de las imágenes subidas.
 * Eliminar datos de prueba periódicamente.
 
 #### Arquitectura distribuida
@@ -477,9 +477,9 @@ El uso de varios servicios externos incrementa los puntos de fallo y puede gener
 
 Mitigación:
 
-* Utilizar región europea en todos los servicios.  
-* Documentar correctamente las variables de entorno.  
-* Realizar pruebas de integración.  
+* Utilizar región europea en todos los servicios.
+* Documentar correctamente las variables de entorno.
+* Realizar pruebas de integración.
 * Configurar CORS desde el inicio del proyecto.
 
 #### Agotamiento de créditos de azure
@@ -488,44 +488,6 @@ Riesgo bajo, ya que los créditos de Azure cubren los 4 meses del proyecto.
 
 Mitigación:
 
-* Utilizar un plan adecuado sin sobredimensionar recursos.  
-* Monitorizar el gasto mensual en Azure.  
+* Utilizar un plan adecuado sin sobredimensionar recursos.
+* Monitorizar el gasto mensual en Azure.
 * Evitar pruebas de carga innecesarias.
-
-## Análisis de Tecnologías Auxiliares
-
-### Mapa
-
-Para usar el mapa, se plantean las siguientes tecnologías:
-
-| Característica | Leaflet | MapLibre | Google Maps API |
-| :---- | :---- | :---- | :---- |
-| **Simplicidad** | Alta — API pequeña, fácil para mapas y marcadores | Media — modelo vectorial/WebGL, algo más conceptual | Media — bien documentada, pero con varias capas |
-| **Costo** | Gratis | Gratis | Basado en uso (free tier \+ facturación) |
-| **Código Abierto** | Sí (BSD) | Sí (BSD) | No — propietario. |
-| **Estilos Personalizados** | Básico — tiles, iconos, overlays | Fuerte — estilos vectoriales detallados | Moderado — estilos soportados pero más limitados que motores vectoriales |
-
-MapLibre es la primera opción. Se ha revisado la API y se integra muy bien con React, proporcionando una API reactiva que facilita mucho la implementación. Además, permite añadir estilos custom para poder mantener la imagen de marca en la aplicación.
-
-En caso de que no se pueda usar por algún motivo, un integrante del equipo ya ha implementado una solución muy similar a la buscada con Leaflet, pero ya que su wrapper de React sólo configura los valores iniciales el código es mucho más complejo, ya que el estado tiene que ser actualizado de manera imperativa.
-
-La API de Google Maps puede también cumplir con el propósito buscado pero es de pago y no tiene un uso muy fácil.
-
-Para buscar la ruta, se puede hacer una simple redirección a google maps siguiendo el query parameter [http://maps.google.com/?q=](http://maps.google.com/?q=) con la dirección de la tienda.
-
-### Pago
-
-Para hacer pagos con reserva de API **Escrow.com / Escrow Pay**, **Shieldpay**, **Ekurpay**, **Tazapay Escrow**, **PayKeeper**, y ninguna es viable. Tampoco con viables Stripe o Redsys. Es decir, **no podemos hacer reservas del pago** sin implementarlo nosotros, y tampoco podemos implementarlo nosotros porque no tenemos una cuenta bancaria con la que hacerlo y sería un riesgo legal espectacular.
-
-| Característica | Stripe | Redsys |
-| :---- | :---- | :---- |
-| **Tipo de pago** | Abstraído, permite Google Pay, tarjeta, PayPal… | Específico al banco. |
-| **Tarifas por transacción** | \~1,4–1,5 % \+ 0,25 € para tarjetas UE; más para internacionales; posible 2 % extra por conversión de divisa | Muy bajas relativas (\~0,3–0,8 % negociado con banco); pueden incluir costes fijos variables según entidad |
-
-Ambos tienen plan gratis. Elegimos usar Stripe para realizar los pagos porque facilita al usuario realizar el pago. Ambas son opciones viables, sin embargo, y el grupo tiene experiencia con ambas, así que se puede cambiar sin problemas en caso de que Stripe no sea viable.
-
-### Envíos
-
-Analizando las opciones de envío, parece que las plataformas específicas para ello tienen APIs sin documentar, no tienen planes gratis, y en general son muy confusas y no entiendo cómo alguien podría usar las que no son las más grandes. Supongo que querrán que contactes con soporte.
-
-Correos de España ofrece una API que es utilizable de manera gratuita para hacer seguimiento al envío y quizás generar etiquetas y sacar costes, lo que está bien, incluyendo una API mockeada con la que podemos integrarnos para el MVP. Sin embargo no veo que se puedan generar etiquetas ni conseguir precios ni nada similar.
