@@ -12,9 +12,9 @@ sidebar_position: 8
 | Publicidad | Campañas de captación local (Ads)  | 60 € |
 | GitHub Enterprise | 17,58 x numSoporte \*Esto incluye 50GB de almacenamiento y 50.000 min de CI/CD | 298,91€ |
 | Bienes inmuebles | Local, luz \+ agua \+ wifi | 1947€ \+ 0,17€ · (\#soporte) \+ 20€ \+ 141,16€ |
-| Comisiones Stripe | Comisiones de pasarela de pago (ej. Stripe/Redsys)  | 0.25 · venta \+ 1.5 · €venta |
-| Soporte | Por cada 200 comercios con plan básico \=\> 1 ingeniero Por cada 150 comercios premium \=\> 1 ingeniero \*Hasta llegar a 15 que es el max de personas que queremos en el equipo de soporte | comerciosFree/200· 40 · 19,8 € comerciosPremium/150 · 40 · 19,8 € |
-| **Total Gastos Operativos** | Gastos fijos y variables mensuales proyectados |  |
+| Comisiones Stripe | Comisiones de pasarela de pago (ej. Stripe/Redsys)  | 0,25€ · venta \+ 1,5€· venta |
+| Soporte | Por cada 200 comercios con plan básico \=\> 1 ingeniero. Por cada 150 comercios premium \=\> 1 ingeniero \* Hasta llegar a 15 que es el max de personas que queremos en el equipo de soporte | comerciosFree/200 · 40 · 19,8 € comerciosPremium/150 · 40 · 19,8 € |
+| **Total Gastos Operativos** | Gastos fijos y variables mensuales proyectados | Excel |
 
 ### **Azure:**   
 Partiendo de la calculadora de Azure ([https://azure.microsoft.com/es-es/pricing/calculator/](https://azure.microsoft.com/es-es/pricing/calculator/)) y seleccionando su App service, incluyendo 1 dominion, con la versión basic \= producción
@@ -53,7 +53,7 @@ Partiendo de la calculadora de Azure ([https://azure.microsoft.com/es-es/pricing
 - Suma de cada transacción (promedio**)**
 
 ### **Cálculo del capital social**  
-A pesar de que el capital social puede comenzar con 1€, esto provocaría que el 20% de los beneficios fueran destinados a impuestos. Para evitarlo, decidimos invertir 3000 en capital social (clau \= que es lo mínimo para que no te cobren tantos impuestos) .
+A pesar de que el capital social puede comenzar con 1€, esto provocaría que el 20% de los beneficios fueran destinados a impuestos. Para evitarlo, decidimos invertir 3000 en capital social.
 
 - Mínimo 3000€
 
@@ -85,7 +85,7 @@ La cuota de minutos de GitHub Actions es de 50.0000 min. No nos acercamos a esa 
 Suponemos que a partir del mes de mayo los gastos de GitHub Actions se reducen en gran medida ya que solo tendría que apoyar el trabajo del equipo de soporte. Por tanto, seguiriamos dentro del plan de GitHub Enterprise, sin acercarnos ni de lejos a la cuota máxima.
 
 ### **Estimaciones del OpEx:**  
-Para distintos casos de uso en fucnión de los datos variables. Los costes fijos de opex no se desglosan con detalle pues ya están previamente definidos en el documento.
+Para distintos casos de uso en función de los datos variables. Los costes fijos de opex no se desglosan con detalle pues ya están previamente definidos en el documento.
 
 #### **Mes 9:**  
 **Bienes inmuebles:** En mes 9, el gasto en inmuebles será de 2108€ siguiendo el desglos en la sección Bienes Inmuebles del OpEx  
@@ -94,20 +94,20 @@ Para distintos casos de uso en fucnión de los datos variables. Los costes fijos
 \- Por cada 200 comercios con plan básico \=\> 1 ingeniero  
 \- Por cada 150 comercios premium \=\> 1 ingeniero  
 Por tanto serán, 1584€  
-**Opex Mes 9: 9,696€**   ¡INCLUYENDO EL OPEX FIJO\!
+**Opex Mes 9: 9,696€**   ¡Incluyendo el opex fijo\!
 
 #### **Mes 14:**   
 **Bienes inmuebles**: 2109€  
 **Comisiones stripe:** 
 
-- Num comercios básicos: 606  
-- Num comercios premium: 303  
+- Número comercios básicos: 606  
+- Número comercios premium: 303  
 - Media ventas por comercio básicos: 40  
 - Media ventas comercios premium: 53  
 - Media valor de la venta: 30€  
   Fórmula: numVentas x **(1,5 x valorVenta \+ 0.25)**.  
   **Costes de contratación de soporte:** 7920 €  
-  **Opex Mes 14: 38,634€**  ¡INCLUYENDO EL OPEX FIJO\!
+  **Opex Mes 14: 38,634€**  ¡Incluyendo el opex fijo\!
 
 ## **CAPEX \- Inversión inicial** (En bruto sin tener en cuenta IRPF ni CS)
 
@@ -131,5 +131,4 @@ Por tanto serán, 1584€
 **TCO (Total Cost of Ownership)**  
 Calculado en el Excel incluyendo una contingencia del 10%   
 Somos rentables a partir del mes 16\.  
-Link al excel: [https://docs.google.com/spreadsheets/d/1UxTqO9XCu9ChmOrox5ee](https://docs.google.com/spreadsheets/d/1UxTqO9XCu9ChmOrox5ee9s0YhAakt7SkVIf2buT2jz8/edit?gid=0#gid=0)  
-[9s0YhAakt7SkVIf2buT2jz8/edit?gid=0\#gid=0](https://docs.google.com/spreadsheets/d/1UxTqO9XCu9ChmOrox5ee9s0YhAakt7SkVIf2buT2jz8/edit?gid=0#gid=0)
+Link al excel: [https://docs.google.com/spreadsheets/d/1UxTqO9XCu9ChmOrox5ee9s0YhAakt7SkVIf2buT2jz8/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1UxTqO9XCu9ChmOrox5ee9s0YhAakt7SkVIf2buT2jz8/edit?usp=sharing)
