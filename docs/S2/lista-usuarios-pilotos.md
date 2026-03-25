@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-# Lista formal de identificación y validación de usuarios piloto
+# Lista de Usuarios Pilotos
 
 ## Introducción
 El presente documento tiene como objetivo identificar y categorizar a los usuarios potenciales para el desarrollo de nuestra aplicación. La participación de estos actores es fundamental para garantizar que el diseño y la funcionalidad de la solución propuesta se ajusten a necesidades reales del mercado y de los clientes usuarios de la aplicación.
