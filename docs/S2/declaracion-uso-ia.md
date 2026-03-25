@@ -2,7 +2,7 @@
 sidebar_position: 7
 ---
 
-# Declaración del uso de Inteligencia Artificial
+# Declaración del Uso de Inteligencia Artificial
 
 [Enlace al reporte del uso de IA (Reporte_del_uso_de_IA.pdf)](/docs/Reporte_del_uso_de_IA.pdf)
 
