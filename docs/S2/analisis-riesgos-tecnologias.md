@@ -388,9 +388,7 @@ Es posible que sea suficiente para trabajar con el saldo que dan, solo se puede 
 
 ##### Render
 
-Plan gratuito:  
-Render:
-
+Plan gratuito:
 - 2 servicios por cuenta (Podría estar desplegado frontend y backend por separado, mismo proyecto, distintos servicios) Habría que registrar 4 usuarios para mantener todos los sprints.  
 - Ancho de banda: 100 GB/mes  
 - Minutos de pipeline de construccion al mes: 500  
@@ -431,8 +429,7 @@ Plan gratuito:
 - Servidores en España
 
 Si se crea con contenedores, se puede CI/CD con contendores(no investigado en profundidad)  
-En el caso de crear con código crea un workflow CI/CD de forma automática para el código en Github, entiendo que habrá que retocar cosas para que despliegue frontend o backend.  
-.
+En el caso de crear con código crea un workflow CI/CD de forma automática para el código en Github, entiendo que habrá que retocar cosas para que despliegue frontend o backend.
 
 ##### [Fly.io](http://Fly.io)
 
