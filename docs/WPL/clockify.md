@@ -6,4 +6,4 @@ El siguiente informe recoge el esfuerzo individual de cada miembro del equipo du
 
 [Enlace al resumen por miembro (3-WPL-time-report.pdf)](/clockify/3-WPL-time-report.pdf)
 
-[Enlace al resumen por miembro DP + S1 + S2 + S3 + PPL + WPL +(3-WPL-time-report-complete.pdf)](/clockify/3-WPL-time-report-complete.pdf)
+[Enlace al resumen por miembro DP + S1 + S2 + S3 + PPL + WPL (3-WPL-time-report-complete.pdf)](/clockify/3-WPL-time-report-complete.pdf)
