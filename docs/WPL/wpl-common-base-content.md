@@ -18,7 +18,7 @@ A continuación se desglosan las aportaciones realizadas por el equipo de **Dond
 
 #### Feedback específico recibido
 
-Este feedback comprende las anotaciones directas recibidas por nuestro grupo durante las sesiones de evaluación de las semanas 9 y 10:
+Este feedback comprende las anotaciones directas recibidas por nuestro grupo durante la sesión de evaluación de la semanas 11:
 
 **Semana 11 (14 de Mayo)**
 
@@ -58,14 +58,9 @@ No se han llevado acabo acciones de consolidación.
 
 ### 2.3 Listado de commits a la base de conocimiento común
 
-[docs: added DondeSiempre feedback from 16th april](https://github.com/ispp-2026/common-knowledge-base/commit/e989893da63cb83e53fdb2c7242307cb275250d9)
+[feat: ✨ feedback DondeSiempre 14 mayo](https://github.com/ispp-2026/common-knowledge-base/commit/622efad5f01e1910f676bb5c3abe97096608bf88)
 
-[docs: added feedback for demos tecnicas from 16th april evaluation class](https://github.com/ispp-2026/common-knowledge-base/commit/725b5485d1f7006927d4b2615c12d6cf4fef2dcf)
+[feat: ✨ feedback del killer](https://github.com/ispp-2026/common-knowledge-base/commit/e7d52faa764f53bacfbed08b0952debecdf227d4)
 
-[docs: added feedback for killer openers from 16th april evaluation class](https://github.com/ispp-2026/common-knowledge-base/commit/9df4043d92c5d76f3925ad6d56b2ccaa935b3da4)
+[feat: ✨feedback de las demos 14/05](https://github.com/ispp-2026/common-knowledge-base/commit/5d3f49e2c1d965e36ff7a837cac30d9256f4db22)
 
-[docs: added DondeSiempre feedback from 30th april](https://github.com/ispp-2026/common-knowledge-base/commit/556f06e6ff6551dd9c4e5f6802e50164b9b1c594)
-
-[docs: added feedback for demos tecnicas from 30th april class](https://github.com/ispp-2026/common-knowledge-base/commit/ca8915d918d27680ca3efedd32a1575d644e2b65)
-
-[docs: added feedback for killer openers 30/04](https://github.com/ispp-2026/common-knowledge-base/commit/3a47f3dc09a64ceec93442f45a1c3e081e639090)
